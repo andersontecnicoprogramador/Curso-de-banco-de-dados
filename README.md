@@ -16,3 +16,4 @@
 
 # As estruturas lineares organizam elementos em uma sequência
 ![Anotação 2024-03-19 1620190](https://github.com/andersontecnicoprogramador/Curso-de-banco-de-dados/assets/68762932/e4ca8edc-3c41-4112-9166-5c63828f0ef1)
+# Matriz
