@@ -14,6 +14,5 @@
 # Tipos de estruturas de dados
 ### As estruturas de tabela são estruturas de banco de dados relacionais que organizam dados em linhas e colunas (as linhas contêm entidades, enquanto as colunas contêm atributos da entidade). As tabelas largas (ou repositórios de colunas largas) usam colunas esparsas com atributos vazios para aumentar consideravelmente o número total de colunas que você pode ter na tabela. Como alguns espaços ficam vazios, as tabelas largas são um exemplo de uma estrutura de banco de dados não relacional.
 
-# As estruturas lineares organizam elementos em uma sequência
-![Anotação 2024-03-19 1620190](https://github.com/andersontecnicoprogramador/Curso-de-banco-de-dados/assets/68762932/e4ca8edc-3c41-4112-9166-5c63828f0ef1)
-# Matriz
+# ![br-modelo-usuario 2024-04-08 041040](https://github.com/andersontecnicoprogramador/Curso-de-banco-de-dados/assets/68762932/791977eb-55c2-4200-be0c-f04e34df4036)
+![usuario](https://github.com/andersontecnicoprogramador/Curso-de-banco-de-dados/assets/68762932/ef8f1261-b564-418e-8e9d-ca513a8fc60d)
