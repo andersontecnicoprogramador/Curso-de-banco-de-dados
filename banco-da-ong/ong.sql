@@ -1,17 +1,20 @@
 CREATE TABLE usuario (
-    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255),
-    endereco VARCHAR(255),
-    email VARCHAR(255),
-    whatsapp VARCHAR(15)
+    id_usuario INT NOT NULL AUTO_INCREMENT ,
+    nome VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL ,
+    whatsapp VARCHAR(15) NOT NULL,
+    PRIMARY KEY(id_usuario)
+    
 );
 
 CREATE TABLE ong (
-    id_ong INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255),
-    endereco VARCHAR(255),
-    email VARCHAR(255),
-    whatsapp VARCHAR(15)
+    id_ong INT AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    email VARCHAR(255)NOT NULL,
+    whatsapp VARCHAR(15)NOT NULL,
+    PRIMARY KEY(id_ong)
 );
 
 CREATE TABLE ocorrencia (
