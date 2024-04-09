@@ -1,0 +1,29 @@
+CREATE TABLE Pessoa (
+    id_pessoa INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(45),
+    cpf VARCHAR(14),
+    data_nascimento DATE,
+    sexo CHAR(1),
+    fk_endereco INT,
+    FOREIGN KEY (fk_endereco) REFERENCES Endereco(id_endereco)
+);
+
+CREATE TABLE Endereco (
+    id_endereco INT AUTO_INCREMENT PRIMARY KEY,
+    logradouro VARCHAR(100),
+    complemento VARCHAR(100),
+    numero_casa VARCHAR(10),
+    bairro VARCHAR(45),
+    cep VARCHAR(9),
+    cidade VARCHAR(45),
+    estado CHAR(2)
+);
+
+CREATE TABLE Telefone (
+    id_telefone INT AUTO_INCREMENT PRIMARY KEY,
+    numero_celular VARCHAR(15),
+    ddd CHAR(2),
+    operadora VARCHAR(45),
+    fk_pessoa INT,
+    FOREIGN KEY (fk_pessoa) REFERENCES Pessoa(id_pessoa)
+);
