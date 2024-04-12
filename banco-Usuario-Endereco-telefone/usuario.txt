@@ -1,3 +1,6 @@
+CREATE DATABASE Pessoa;
+use Pessoa;
+
 CREATE TABLE Pessoa (
     id_pessoa INT AUTO_INCREMENT,
     nome VARCHAR(45),
