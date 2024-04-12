@@ -1,8 +1,8 @@
 CREATE TABLE usuario (
-    id_usuario INT AUTO_INCREMENT ,
+    id_usuario INT AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
     endereco VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL ,
+    email VARCHAR(255) NOT NULL,
     whatsapp VARCHAR(15),
     PRIMARY(id_usuario)
     
