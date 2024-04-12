@@ -23,3 +23,4 @@ CREATE TABLE Agenda (
     FOREIGN KEY (fk_idCliente) REFERENCES Cliente(idCliente),
     FOREIGN KEY (fk_idServico) REFERENCES Servico(idServico)
 );
+

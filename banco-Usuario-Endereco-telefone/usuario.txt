@@ -1,12 +1,11 @@
 CREATE TABLE Pessoa (
-    id_pessoa INT AUTO_INCREMENT ,
+    id_pessoa INT AUTO_INCREMENT,
     nome VARCHAR(45),
     cpf VARCHAR(14),
     data_nascimento DATE,
     sexo CHAR(1),
     fk_endereco INT,
     FOREIGN KEY (fk_endereco) REFERENCES Endereco(id_endereco)
-    PRIMARY KEY(id_endereco)
 );
 
 CREATE TABLE Endereco (
