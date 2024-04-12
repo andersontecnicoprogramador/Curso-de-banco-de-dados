@@ -1,9 +1,10 @@
 CREATE TABLE usuario (
-    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT AUTO_INCREMENT ,
     nome VARCHAR(255),
     endereco VARCHAR(255),
     email VARCHAR(255),
     whatsapp VARCHAR(15)
+    PRIMARY KEY(id_endereco)
 );
 
 CREATE TABLE ong (

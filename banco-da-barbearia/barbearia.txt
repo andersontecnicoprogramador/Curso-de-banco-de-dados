@@ -1,9 +1,10 @@
 
 CREATE TABLE Cliente (
-    idCliente INT AUTO_INCREMENT PRIMARY KEY,
+    idCliente INT AUTO_INCREMENT ,
     nome VARCHAR(45),
     dataNascimento DATE,
     whatsapp DECIMAL(9)
+    PRIMARY KEY(idCliente)
 );
 
 CREATE TABLE Servico (
